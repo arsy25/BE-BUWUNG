@@ -10,7 +10,7 @@ app.use(express.urlencoded({ extended: true }));
 
 // ✅ AMBIL DARI .ENV
 const openai = new OpenAI({ 
-  apiKey: process.env.OPENAI_API_KEY
+  apiKey: "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"
 });
 
 // Test
